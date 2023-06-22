@@ -1,0 +1,55 @@
+name: stickisaver
+description: Whatsapp status saver and sticker maker in flutter
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  permission_handler: ^10.0.0
+  video_thumbnail: ^0.5.3
+  video_player: ^2.5.1
+  chewie: ^1.4.0
+  path_provider: ^2.0.12
+  gallery_saver: ^2.3.2
+  flutter_native_api: ^0.0.1
+  shimmer: ^2.0.0
+  device_info_plus: ^8.1.0
+
+dev_dependencies:
+
+  flutter_native_splash: ^2.2.17
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - icon/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+
+flutter_native_splash:
+  android: true
+  color: "#4E6C50"
+  background_image: "icon/iconapp.png"
+  android_12:
+    image: icon/iconapp.png
+    color: "#4E6C50"
